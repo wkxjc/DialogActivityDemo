@@ -11,6 +11,7 @@ public class MyIntentService extends IntentService{
 
     @Override
     protected void onHandleIntent(@Nullable Intent intent) {
+        //隐式启动DialogActivity
         Intent intent1 = new Intent();
         intent1.setAction("dialog");
         startActivity(intent1);

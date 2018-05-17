@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btn = (Button)findViewById(R.id.btn);
-
 //        1.启动DialogActivity
 //        btn.setOnClickListener(new View.OnClickListener() {
 //            @Override
